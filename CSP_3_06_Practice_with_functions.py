@@ -61,7 +61,7 @@ def mainCalc(a, b, c):
 #Make sure to use all the formulas from this section.
 def quadratic(a, b, c):
      d = mainCalc(a,b,c)
-     gf, fg = plusMinus(b, d)
+     gf, fg = plusMinus(b, root(d))
      ab = gf/denominator(a)
      ba = fg/denominator(a)
      return ab, ba
